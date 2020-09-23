@@ -7,8 +7,6 @@ import telBookOperations from "../../../redux/telBookOperations";
 import { getFilteredContcats } from "../telBookSelectors";
 
 function ContactList({ contacts }) {
-  console.log("ContactList Rerender");
-
   const dispatch = useDispatch();
 
   return (

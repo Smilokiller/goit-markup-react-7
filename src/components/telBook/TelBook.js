@@ -9,8 +9,6 @@ import { telBookReducers } from "../../redux/telBookReducers";
 import telBookOperations from "../../redux/telBookOperations";
 
 function TelBook() {
-  console.log("TelBook Rerender");
-
   const dispatch = useDispatch();
   const {
     actions: { filterContacts },

@@ -18,8 +18,6 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 function FindInput({ onChange }) {
-  console.log("FindInput Rerender");
-
   const classes = useStyles();
   return (
     <>
